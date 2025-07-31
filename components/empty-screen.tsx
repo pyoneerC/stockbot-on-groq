@@ -8,23 +8,12 @@ export function EmptyScreen() {
     <div className="mx-auto max-w-2xl px-4">
       <div className="flex flex-col gap-2 border bg-background p-8">
         <h1 className="text-lg font-semibold">
-          Welcome to the StockBot powered by Groq!
+          Welcome to AI Stock Assistant!
         </h1>
         <p className="leading-normal text-sm">
-          Open source AI chatbot that uses function calling to render relevant
-          TradingView stock market widgets.{' '}
+          Advanced AI chatbot that provides comprehensive stock market analysis with interactive charts and real-time data.{' '}
           <span className="font-muted-foreground">
-            Built with{' '}
-            <ExternalLink href="https://sdk.vercel.ai">
-              Vercel AI SDK{' '}
-            </ExternalLink>
-            <ExternalLink href="https://tradingview.com">
-              , TradingView Widgets
-            </ExternalLink>
-            , and powered by{' '}
-            <ExternalLink href="https://groq.com">
-              Llama3-70b on Groq
-            </ExternalLink>
+            Get instant access to market insights, financial data, and trading tools powered by cutting-edge AI technology.
           </span>
         </p>
       </div>
